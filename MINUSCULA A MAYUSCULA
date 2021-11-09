@@ -1,0 +1,12 @@
+/*EJERCICIOS 3 DE NOVIEMBRE DEL 2021
+ISRAEL FRANCISCO ANGELES MONTIJO
+PROGRAMACION EN C*/
+#include<stdio.h>
+main ()
+{
+char minuscula,mayuscula;
+printf("INTRODUCE UN CARACTER EN MINUSCULA:");
+scanf("%c",&minuscula);
+mayuscula=minuscula-32;
+printf("EL CARACTER %c EN MAYUSCULA ES: %c\n",minuscula,mayuscula);	
+}
